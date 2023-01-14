@@ -20,7 +20,7 @@ with st.expander('Odabir filtera:'):
     actors = st.multiselect('Odabir glumca:', set(df['cast']))
     if (len(actors) != 0):
         df = updateTeble(df, 'cast', actors)
-    directors = st.multiselect('Odabir direktora:', set(df['director']))
+    directors = st.multiselect('Odabir režisera:', set(df['director']))
     if (len(directors) != 0):
         df = updateTeble(df, 'cast', directors)
 
