@@ -1,1 +1,5 @@
 matplotlib
+screeninfo
+io
+random
+pandas
